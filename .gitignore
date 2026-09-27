@@ -1,0 +1,15 @@
+# Only source code, notebooks, and .pth model weights are versioned.
+*
+!*/
+!.gitignore
+!*.py
+!*.ipynb
+!*.pth
+
+# Local caches and environments
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
