@@ -1,0 +1,12 @@
+train: train/images
+val: valid/images
+test: test/images
+nc: 1
+names:
+- target
+roboflow:
+  workspace: c-mk
+  project: yolo-tracking-oss1p
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/c-mk/yolo-tracking-oss1p/dataset/1

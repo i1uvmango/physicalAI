@@ -1,10 +1,19 @@
-# Only source code, notebooks, and .pth model weights are versioned.
+# Source code, notebooks, .pth weights, and the YOLO dataset are versioned.
 *
 !*/
 !.gitignore
 !*.py
 !*.ipynb
 !*.pth
+!/dataset/data.yaml
+!/dataset/README.dataset.txt
+!/dataset/README.roboflow.txt
+!/dataset/train/images/*.jpg
+!/dataset/train/labels/*.txt
+!/dataset/valid/images/*.jpg
+!/dataset/valid/labels/*.txt
+!/dataset/test/images/*.jpg
+!/dataset/test/labels/*.txt
 
 # Local caches and environments
 __pycache__/
