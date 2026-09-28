@@ -7,7 +7,7 @@ import csv
 import os
 from pynput import keyboard
 
-CROP_RATIO = 0.2
+CROP_RATIO = 0.2  ## why crop?
 YAW_PIN = 18
 PITCH_PIN = 13
 FIRE_PIN = 12
