@@ -1,0 +1,13 @@
+path: data
+train:
+  - dataset_90_5_5/images/train
+  - yolo_color-3-yolov11-png-class-order/train/images
+val:
+  - dataset_90_5_5/images/val
+  - yolo_color-3-yolov11-png-class-order/valid/images
+test:
+  - dataset_90_5_5/images/test
+  - yolo_color-3-yolov11-png-class-order/test/images
+names:
+  0: enemy
+  1: ally
